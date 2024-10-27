@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+section{
+    display: flex;
+    flex-direction: column;
+}
+div.board{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 40px;
+    column-gap: 24px;
+    row-gap: 10px;
+}
+div.sqr{
+    background-color: white;
+    min-width: 100px;
+    min-height: 100px;
+    text-align: center;
+}
+div.dice{
+    background-color: gray;
+    width: 300px;
+    height:180px;
+    border: solid 24px white;
+}
+div#winner{
+    height: 120px;
+}
+p.points{
+    text-align: center;
+    justify-content: center;
+}
